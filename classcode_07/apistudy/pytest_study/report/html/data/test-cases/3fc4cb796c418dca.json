@@ -1,0 +1,98 @@
+{
+  "uid" : "3fc4cb796c418dca",
+  "name" : "test_add_cart1",
+  "fullName" : "test_create_trade_params_dikaerji.TestAddCart#test_add_cart1",
+  "historyId" : "3a494a3ef05b1b384256505f87839222",
+  "time" : {
+    "start" : 1658645534640,
+    "stop" : 1658645534683,
+    "duration" : 43
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ {
+    "name" : "get_buyer_token",
+    "time" : {
+      "start" : 1658645529855,
+      "stop" : 1658645530022,
+      "duration" : 167
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "hasContent" : false,
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false
+  }, {
+    "name" : "_session_faker",
+    "time" : {
+      "start" : 1658645529713,
+      "stop" : 1658645529855,
+      "duration" : 142
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "hasContent" : false,
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false
+  } ],
+  "afterStages" : [ {
+    "name" : "get_buyer_token::0",
+    "time" : {
+      "start" : 1658645534774,
+      "stop" : 1658645534774,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "hasContent" : false,
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false
+  } ],
+  "labels" : [ {
+    "name" : "suite",
+    "value" : "test_create_trade_params_dikaerji"
+  }, {
+    "name" : "subSuite",
+    "value" : "TestAddCart"
+  }, {
+    "name" : "host",
+    "value" : "LAPTOP-93HH27QA"
+  }, {
+    "name" : "thread",
+    "value" : "31848-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "test_create_trade_params_dikaerji"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "3fc4cb796c418dca.json",
+  "parameterValues" : [ ]
+}

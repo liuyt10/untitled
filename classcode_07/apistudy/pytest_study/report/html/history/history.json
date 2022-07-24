@@ -1,0 +1,482 @@
+{
+  "639801fb1416cf8cc282e456cefdbd84" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "5f14b6763effe390",
+      "status" : "passed",
+      "time" : {
+        "start" : 1658645531158,
+        "stop" : 1658645531268,
+        "duration" : 110
+      }
+    } ]
+  },
+  "64ede2abafc0f433d1d20356746c514a" : {
+    "statistic" : {
+      "failed" : 1,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "70510758e36a36e5",
+      "status" : "failed",
+      "statusDetails" : "AssertionError: assert 200 == 500\n  +200\n  -500",
+      "time" : {
+        "start" : 1658645530167,
+        "stop" : 1658645530244,
+        "duration" : 77
+      }
+    } ]
+  },
+  "62dfc6aac24913dfd90c50229f406bcf" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "934eea9d8d82b05c",
+      "status" : "passed",
+      "time" : {
+        "start" : 1658645532274,
+        "stop" : 1658645532557,
+        "duration" : 283
+      }
+    } ]
+  },
+  "c95f435a294f4bf823ed554e95e66f01" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "6900731d37f99e58",
+      "status" : "passed",
+      "time" : {
+        "start" : 1658645531398,
+        "stop" : 1658645531537,
+        "duration" : 139
+      }
+    } ]
+  },
+  "948eabac90e76b5b30928e60f162a11c" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "bb7424376711dfd5",
+      "status" : "passed",
+      "time" : {
+        "start" : 1658645531086,
+        "stop" : 1658645531149,
+        "duration" : 63
+      }
+    } ]
+  },
+  "3b41c457b2a16041a5a04a5efe809249" : {
+    "statistic" : {
+      "failed" : 1,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "eaa8ef8c8381268a",
+      "status" : "failed",
+      "statusDetails" : "AssertionError: assert 200 == 500\n  +200\n  -500",
+      "time" : {
+        "start" : 1658645534685,
+        "stop" : 1658645534767,
+        "duration" : 82
+      }
+    } ]
+  },
+  "335a96072f475e99d21f785a9a8725f1" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "4c6b1be510f6dba1",
+      "status" : "passed",
+      "time" : {
+        "start" : 1658645530720,
+        "stop" : 1658645530804,
+        "duration" : 84
+      }
+    } ]
+  },
+  "6a6b1281a24ec66a19cca0731736cae9" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "bdb9776e1221bda",
+      "status" : "passed",
+      "time" : {
+        "start" : 1658645534374,
+        "stop" : 1658645534635,
+        "duration" : 261
+      }
+    } ]
+  },
+  "f02eb723c4b954273d86fe5b6b6759d2" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "67dd3168bcf8006b",
+      "status" : "passed",
+      "time" : {
+        "start" : 1658645534773,
+        "stop" : 1658645534773,
+        "duration" : 0
+      }
+    } ]
+  },
+  "3b609e5bdad7b1666d0f5c47f62eaf63" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "a714d22ad01d0e79",
+      "status" : "passed",
+      "time" : {
+        "start" : 1658645533054,
+        "stop" : 1658645533305,
+        "duration" : 251
+      }
+    } ]
+  },
+  "3a494a3ef05b1b384256505f87839222" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "3fc4cb796c418dca",
+      "status" : "passed",
+      "time" : {
+        "start" : 1658645534640,
+        "stop" : 1658645534683,
+        "duration" : 43
+      }
+    } ]
+  },
+  "6026ff5f1d2955ad190c9f7c2ad7d86b" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "9b170757fe960387",
+      "status" : "passed",
+      "time" : {
+        "start" : 1658645534137,
+        "stop" : 1658645534370,
+        "duration" : 233
+      }
+    } ]
+  },
+  "83c2ac832fc3486bb2c676a76c6b0930" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "5f1d4a508ef23677",
+      "status" : "passed",
+      "time" : {
+        "start" : 1658645533309,
+        "stop" : 1658645533900,
+        "duration" : 591
+      }
+    } ]
+  },
+  "029331395aaf07e17b13de6714e66726" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "9f4863b100f7556e",
+      "status" : "passed",
+      "time" : {
+        "start" : 1658645531285,
+        "stop" : 1658645531390,
+        "duration" : 105
+      }
+    } ]
+  },
+  "361e04fc0cc77f10892efeea1e22c6d2" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "571efefd212b387",
+      "status" : "passed",
+      "time" : {
+        "start" : 1658645533907,
+        "stop" : 1658645534130,
+        "duration" : 223
+      }
+    } ]
+  },
+  "8836d00423b49be0f66d9457c2b6d37e" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "e6c32bd398074a26",
+      "status" : "passed",
+      "time" : {
+        "start" : 1658645531754,
+        "stop" : 1658645532000,
+        "duration" : 246
+      }
+    } ]
+  },
+  "b8cc9a8cce9f154bc31c00714b08ea03" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "30788670d2ceaa2a",
+      "status" : "passed",
+      "time" : {
+        "start" : 1658645532561,
+        "stop" : 1658645532792,
+        "duration" : 231
+      }
+    } ]
+  },
+  "7074393fb61620973d079450e3671003" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "1b8153cc2f6232fe",
+      "status" : "passed",
+      "time" : {
+        "start" : 1658645532802,
+        "stop" : 1658645533045,
+        "duration" : 243
+      }
+    } ]
+  },
+  "76f89cf65fa5d6f817179c4e49908f2a" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "87fa00fa26912c05",
+      "status" : "passed",
+      "time" : {
+        "start" : 1658645530125,
+        "stop" : 1658645530163,
+        "duration" : 38
+      }
+    } ]
+  },
+  "64a6f9f54076bef14bf8e8985ab80815" : {
+    "statistic" : {
+      "failed" : 1,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "71845dd6c7928c7d",
+      "status" : "failed",
+      "statusDetails" : "AssertionError: assert 200 == 500\n  +200\n  -500",
+      "time" : {
+        "start" : 1658645530618,
+        "stop" : 1658645530707,
+        "duration" : 89
+      }
+    } ]
+  },
+  "ca099a13c5ada7a3f12ae52e86e6b07f" : {
+    "statistic" : {
+      "failed" : 1,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "d2fe4f37b3faea88",
+      "status" : "failed",
+      "statusDetails" : "pytest_assume.plugin.FailedAssumption: \nOriginal Failure:\n\n>> JSONDecodeError('Expecting value: line 1 column 1 (char 0)')\n\n1 Failed Assumptions:\n\ntest_buy_now_params.py:38: AssumptionFailure\n>>\tpytest.assume(status_code==expect_statuscode,f'实际值是:{status_code},期望值是：{expect_statuscode}')\nAssertionError: 实际值是:200,期望值是：500\nassert False",
+      "time" : {
+        "start" : 1658645530963,
+        "stop" : 1658645531042,
+        "duration" : 79
+      }
+    } ]
+  },
+  "fc462b0cf649371f1f1e3d861a213ad5" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "f90a01056a3d623b",
+      "status" : "passed",
+      "time" : {
+        "start" : 1658645532010,
+        "stop" : 1658645532269,
+        "duration" : 259
+      }
+    } ]
+  },
+  "b7f0150c5e6e151f12f3044f2cce1077" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "eaaa983d4a4b71f3",
+      "status" : "passed",
+      "time" : {
+        "start" : 1658645531699,
+        "stop" : 1658645531749,
+        "duration" : 50
+      }
+    } ]
+  },
+  "bd0e5d7f195e36a78da728f1ccd03a9e" : {
+    "statistic" : {
+      "failed" : 1,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "7df299a3364ba0c3",
+      "status" : "failed",
+      "statusDetails" : "pytest_assume.plugin.FailedAssumption: \nOriginal Failure:\n\n>> JSONDecodeError('Expecting value: line 1 column 1 (char 0)')\n\n1 Failed Assumptions:\n\ntest_buy_now_params.py:38: AssumptionFailure\n>>\tpytest.assume(status_code==expect_statuscode,f'实际值是:{status_code},期望值是：{expect_statuscode}')\nAssertionError: 实际值是:200,期望值是：500\nassert False",
+      "time" : {
+        "start" : 1658645530812,
+        "stop" : 1658645530906,
+        "duration" : 94
+      }
+    } ]
+  },
+  "8f43350bef73b9f11f701578e0ef69f8" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "7e19a95b4c085f74",
+      "status" : "passed",
+      "time" : {
+        "start" : 1658645530554,
+        "stop" : 1658645530614,
+        "duration" : 60
+      }
+    } ]
+  }
+}

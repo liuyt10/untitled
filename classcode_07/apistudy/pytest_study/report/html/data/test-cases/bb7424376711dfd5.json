@@ -1,0 +1,113 @@
+{
+  "uid" : "bb7424376711dfd5",
+  "name" : "test_buy_now_params[num为0-17418-0-400-004-购买数量必须大于0]",
+  "fullName" : "test_buy_now_params#test_buy_now_params",
+  "historyId" : "948eabac90e76b5b30928e60f162a11c",
+  "time" : {
+    "start" : 1658645531086,
+    "stop" : 1658645531149,
+    "duration" : 63
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ {
+    "name" : "get_buyer_token",
+    "time" : {
+      "start" : 1658645529855,
+      "stop" : 1658645530022,
+      "duration" : 167
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "hasContent" : false,
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false
+  }, {
+    "name" : "_session_faker",
+    "time" : {
+      "start" : 1658645529713,
+      "stop" : 1658645529855,
+      "duration" : 142
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "hasContent" : false,
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false
+  } ],
+  "afterStages" : [ {
+    "name" : "get_buyer_token::0",
+    "time" : {
+      "start" : 1658645534774,
+      "stop" : 1658645534774,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "hasContent" : false,
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false
+  } ],
+  "labels" : [ {
+    "name" : "suite",
+    "value" : "test_buy_now_params"
+  }, {
+    "name" : "host",
+    "value" : "LAPTOP-93HH27QA"
+  }, {
+    "name" : "thread",
+    "value" : "31848-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "test_buy_now_params"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ {
+    "name" : "casename",
+    "value" : "'num为0'"
+  }, {
+    "name" : "expect_code",
+    "value" : "'004'"
+  }, {
+    "name" : "expect_message",
+    "value" : "'购买数量必须大于0'"
+  }, {
+    "name" : "expect_statuscode",
+    "value" : "400"
+  }, {
+    "name" : "num",
+    "value" : "0"
+  }, {
+    "name" : "sku_id",
+    "value" : "17418"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "bb7424376711dfd5.json",
+  "parameterValues" : [ "'num为0'", "'004'", "'购买数量必须大于0'", "400", "0", "17418" ]
+}

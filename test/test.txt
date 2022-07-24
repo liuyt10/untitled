@@ -1,0 +1,18 @@
+bskjhvfaaaaaa
+1
+2
+bbbb
+ffff
+ggg
+ooo
+uuu
+
+
+bskjhvf
+aaaaaa
+
+\d+\.？\d{,2}
+\d+\.？\d+
+
+ret = '+'.join(ret)  slipt('',s)
+eval(ret)
