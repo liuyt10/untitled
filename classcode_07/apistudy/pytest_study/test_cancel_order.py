@@ -4,7 +4,7 @@
 # @author   : 沙陌 Matongxue_2
 # @Time     : 2022-07-24 11:51
 # @Copyright: 北京码同学
-from requests_study.mtxshop_apis import cancel_order
+from classcode_07.apistudy.requests_study.mtxshop_apis import cancel_order
 
 
 class TestCancelOrder:

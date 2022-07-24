@@ -1,0 +1,130 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="74f55a6e-904f-4812-99e9-bb49bca73154" name="Default Changelist" comment="Default Changelist">
+      <change afterPath="$PROJECT_DIR$/test/class07.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/classcode_07/apistudy/pytest_study/conftest.py" beforeDir="false" afterPath="$PROJECT_DIR$/classcode_07/apistudy/pytest_study/conftest.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/classcode_07/apistudy/pytest_study/test_add_cart.py" beforeDir="false" afterPath="$PROJECT_DIR$/classcode_07/apistudy/pytest_study/test_add_cart.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/classcode_07/apistudy/pytest_study/test_buy_now.py" beforeDir="false" afterPath="$PROJECT_DIR$/classcode_07/apistudy/pytest_study/test_buy_now.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/classcode_07/apistudy/pytest_study/test_buy_now_params.py" beforeDir="false" afterPath="$PROJECT_DIR$/classcode_07/apistudy/pytest_study/test_buy_now_params.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/classcode_07/apistudy/pytest_study/test_buyer_login.py" beforeDir="false" afterPath="$PROJECT_DIR$/classcode_07/apistudy/pytest_study/test_buyer_login.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/classcode_07/apistudy/pytest_study/test_cancel_order.py" beforeDir="false" afterPath="$PROJECT_DIR$/classcode_07/apistudy/pytest_study/test_cancel_order.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/classcode_07/apistudy/pytest_study/test_create_trade_params_dikaerji.py" beforeDir="false" afterPath="$PROJECT_DIR$/classcode_07/apistudy/pytest_study/test_create_trade_params_dikaerji.py" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Python Script" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="ProjectId" id="28rfrVcNcijfBLgXqaPgzHlOF3d" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+    <option name="showMembers" value="true" />
+  </component>
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;settings.editor.selected.configurable&quot;: &quot;com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable&quot;
+  }
+}</component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="E:\project\untitled\学员管理系统" />
+      <recent name="E:\project\untitled\函数" />
+      <recent name="E:\project\untitled\第一周作业" />
+      <recent name="E:\project\untitled\第二周作业" />
+    </key>
+  </component>
+  <component name="RunManager">
+    <configuration name="work" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="testclass" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/20220612_6_homework" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/20220612_6_homework/work.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Python.work" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="74f55a6e-904f-4812-99e9-bb49bca73154" name="Default Changelist" comment="" />
+      <created>1651979823652</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1651979823652</updated>
+      <workItem from="1651979835840" duration="665000" />
+      <workItem from="1651981047703" duration="598000" />
+      <workItem from="1651989644917" duration="14757000" />
+      <workItem from="1652576557871" duration="1783000" />
+      <workItem from="1652579917349" duration="52000" />
+      <workItem from="1652580704641" duration="33711000" />
+      <workItem from="1655003806580" duration="3365000" />
+      <workItem from="1655011783897" duration="24003000" />
+      <workItem from="1655604074487" duration="16425000" />
+      <workItem from="1655733577435" duration="4000" />
+      <workItem from="1658417117638" duration="3784000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="2" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <default-breakpoints>
+        <breakpoint type="python-exception">
+          <properties notifyOnTerminate="true" exception="BaseException">
+            <option name="notifyOnTerminate" value="true" />
+          </properties>
+        </breakpoint>
+      </default-breakpoints>
+    </breakpoint-manager>
+  </component>
+</project>

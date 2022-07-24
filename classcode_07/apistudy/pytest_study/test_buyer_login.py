@@ -4,7 +4,7 @@
 # @author   : 沙陌 Matongxue_2
 # @Time     : 2022-07-17 15:43
 # @Copyright: 北京码同学
-from requests_study.mtxshop_apis import buyer_login
+from classcode_07.apistudy.requests_study.mtxshop_apis import buyer_login
 
 
 def test_buyer_login():

@@ -10,8 +10,8 @@ from typing import List
 
 import pytest
 
-from redis_study.redis_connect import RedisUtil
-from requests_study.mtxshop_apis import buyer_login, buy_now, create_trade
+from classcode_07.apistudy.redis_study.redis_connect import RedisUtil
+from classcode_07.apistudy.requests_study.mtxshop_apis import buyer_login, buy_now, create_trade
 
 
 def pytest_collection_modifyitems(
@@ -21,6 +21,7 @@ def pytest_collection_modifyitems(
     for item in items:
         item.name = item.name.encode("utf-8").decode("unicode-escape")
         item._nodeid = item._nodeid.encode("utf-8").decode("unicode-escape")
+
 
 """
 scope表示该fixture的作用域
@@ -39,17 +40,19 @@ autouse表示该fixture函数是否被自动调用，默认是False
 2.在测试用例函数参数中直接写上fixture函数的名称
 """
 
+
 # @pytest.fixture(scope='function',autouse=True)
 # def get_buyer_token():
 #     buyer_login()
 #     print('获取买家登录的token')
-@pytest.fixture(scope='session',autouse=True)
+@pytest.fixture(scope='session', autouse=True)
 def get_buyer_token():
     resp = buyer_login()
-    uid = resp.json()['uid'] #获取用户id
+    uid = resp.json()['uid']  # 获取用户id
     print('获取买家登录的token')
-    yield uid# 从yield下一行开始，表示的是后置动作
+    yield uid  # 从yield下一行开始，表示的是后置动作
     print('这是后置动作')
+
 
 # 使用fixture初始化一些数据，将得到的数据返回，提供给测试用例使用
 @pytest.fixture(scope='function')
@@ -59,15 +62,17 @@ def get_order_sn():
     order_sn = resp.json()['order_list'][0]['sn']
     return order_sn
 
+
 # 比如 前置动作创建一个商品，得到商品id及sku_id给需要的接口使用
 # 用完之后将该商品再清除掉
 @pytest.fixture(scope='function')
 def goods_data():
-    print('创建一个商品') # 前置动作
-    yield '返回商品id' # 返回数据
-    print('清除商品') # 后置动作
+    print('创建一个商品')  # 前置动作
+    yield '返回商品id'  # 返回数据
+    print('清除商品')  # 后置动作
 
-@pytest.fixture(scope='session',autouse=True)
+
+@pytest.fixture(scope='session', autouse=True)
 def get_redis():
     redis_util = RedisUtil(host='121.42.15.146', pwd='testfan')
     yield redis_util

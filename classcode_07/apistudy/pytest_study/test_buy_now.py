@@ -13,10 +13,13 @@ num为0
 num为-1
 num超过库存
 """
-from requests_study.mtxshop_apis import buyer_login, buy_now
+
 
 
 # 在当前模块下所有用例执行前去调用登录接口
+from classcode_07.apistudy.requests_study.mtxshop_apis import buyer_login, buy_now
+
+
 def setup_module():
     buyer_login()
     print('在当前模块下所有用例执行前去调用登录接口')
