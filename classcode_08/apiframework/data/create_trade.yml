@@ -1,0 +1,8 @@
+client:
+  - 'PC'
+  - 'WAP'
+  - 'NATIVE'
+  - 'REACT'
+  - 'MINI'
+way: ['BUY_NOW','CART']
+expect_statuscode: [200]

@@ -1,0 +1,43 @@
+{
+  "uid" : "4b4757e66a1912dae1a509f688f20b0f",
+  "name" : "categories",
+  "children" : [ {
+    "name" : "Product defects",
+    "children" : [ {
+      "name" : "AssertionError: 响应码不一致\nassert 200 == 500\n +  where 200 = <Response [200]>.status_code",
+      "children" : [ {
+        "name" : "test_buy_now_params[sku_id已下架-538-1-500-004-不合法]",
+        "uid" : "8c7bd52154de2b01",
+        "parentUid" : "2f60000c54ef96b4fe78f6872e08a8f9",
+        "status" : "failed",
+        "time" : {
+          "start" : 1659201319676,
+          "stop" : 1659201319798,
+          "duration" : 122
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "'sku_id已下架'", "'004'", "'不合法'", "500", "1", "538" ]
+      } ],
+      "uid" : "2f60000c54ef96b4fe78f6872e08a8f9"
+    }, {
+      "name" : "pytest_assume.plugin.FailedAssumption: \n2 Failed Assumptions:\n\ntest_buy.py:27: AssumptionFailure\n>>\tpytest.assume(resp.json()['code'] == expect_code,\nAssertionError: 实际值是************：451,期待值是**********：452\nassert False\n\ntest_buy.py:29: AssumptionFailure\n>>\tpytest.assume(resp.json()['message'] == expect_message,\nAssertionError: 实际值是**********：商品库存已不足，不能购买。,期待值是*********：商品库存已不足1，不能购买。\nassert False",
+      "children" : [ {
+        "name" : "test_buy_now_params[num超过库存-17418-99999999-500-452-商品库存已不足1，不能购买。]",
+        "uid" : "593b3f334f12490e",
+        "parentUid" : "a9f5218d6f453a8d188b3475cdba0996",
+        "status" : "failed",
+        "time" : {
+          "start" : 1659201320157,
+          "stop" : 1659201320309,
+          "duration" : 152
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "'num超过库存'", "'452'", "'商品库存已不足1，不能购买。'", "500", "99999999", "17418" ]
+      } ],
+      "uid" : "a9f5218d6f453a8d188b3475cdba0996"
+    } ],
+    "uid" : "8fb3a91ba5aaf9de24cc8a92edc82b5d"
+  } ]
+}

@@ -1,0 +1,156 @@
+{
+  "8376e163a440bf1fcf07af78e80bc613" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "e6a888ecdbcd97f1",
+      "status" : "passed",
+      "time" : {
+        "start" : 1659201319894,
+        "stop" : 1659201320015,
+        "duration" : 121
+      }
+    } ]
+  },
+  "3106374f34cb364672b8bdf42903a465" : {
+    "statistic" : {
+      "failed" : 1,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "8c7bd52154de2b01",
+      "status" : "failed",
+      "statusDetails" : "AssertionError: 响应码不一致\nassert 200 == 500\n +  where 200 = <Response [200]>.status_code",
+      "time" : {
+        "start" : 1659201319676,
+        "stop" : 1659201319798,
+        "duration" : 122
+      }
+    } ]
+  },
+  "e81b699fd7651aa66b5ff5865343419f" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "a557fcdf3e213f70",
+      "status" : "passed",
+      "time" : {
+        "start" : 1659201319488,
+        "stop" : 1659201319659,
+        "duration" : 171
+      }
+    } ]
+  },
+  "4ae5327930209abd27f36a1bd44d752f" : {
+    "statistic" : {
+      "failed" : 1,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "593b3f334f12490e",
+      "status" : "failed",
+      "statusDetails" : "pytest_assume.plugin.FailedAssumption: \n2 Failed Assumptions:\n\ntest_buy.py:27: AssumptionFailure\n>>\tpytest.assume(resp.json()['code'] == expect_code,\nAssertionError: 实际值是************：451,期待值是**********：452\nassert False\n\ntest_buy.py:29: AssumptionFailure\n>>\tpytest.assume(resp.json()['message'] == expect_message,\nAssertionError: 实际值是**********：商品库存已不足，不能购买。,期待值是*********：商品库存已不足1，不能购买。\nassert False",
+      "time" : {
+        "start" : 1659201320157,
+        "stop" : 1659201320309,
+        "duration" : 152
+      }
+    } ]
+  },
+  "fd7557167a4021247e713aa4f809a534" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "81516bbb87183804",
+      "status" : "passed",
+      "time" : {
+        "start" : 1659201319810,
+        "stop" : 1659201319890,
+        "duration" : 80
+      }
+    } ]
+  },
+  "1ce6314230343a1797da80a510a5a23f" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "3b13fb81f3c76776",
+      "status" : "passed",
+      "time" : {
+        "start" : 1659201320700,
+        "stop" : 1659201320700,
+        "duration" : 0
+      }
+    } ]
+  },
+  "87a6b0e03c25b4ba0a1b3a0cf62fc0cd" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "953959b0cff29a16",
+      "status" : "passed",
+      "time" : {
+        "start" : 1659201320022,
+        "stop" : 1659201320151,
+        "duration" : 129
+      }
+    } ]
+  },
+  "c96ed2c3f16fef41b75d3972e03f5a3f" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "a2beab7a7cc6f9ef",
+      "status" : "passed",
+      "time" : {
+        "start" : 1659201320632,
+        "stop" : 1659201320696,
+        "duration" : 64
+      }
+    } ]
+  }
+}

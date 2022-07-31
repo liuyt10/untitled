@@ -1,0 +1,83 @@
+{
+  "uid" : "81516bbb87183804",
+  "name" : "test_buy_now_params[sku_id已删除-18575-1-500-004-不合法]",
+  "fullName" : "test_buy#test_buy_now_params",
+  "historyId" : "fd7557167a4021247e713aa4f809a534",
+  "time" : {
+    "start" : 1659201319810,
+    "stop" : 1659201319890,
+    "duration" : 80
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ {
+    "name" : "get_buyer_token",
+    "time" : {
+      "start" : 1659201319185,
+      "stop" : 1659201319487,
+      "duration" : 302
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0,
+    "stepsCount" : 0,
+    "hasContent" : false
+  } ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "suite",
+    "value" : "test_buy"
+  }, {
+    "name" : "host",
+    "value" : "DESKTOP-BQAO4M4"
+  }, {
+    "name" : "thread",
+    "value" : "32444-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "test_buy"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ {
+    "name" : "casename",
+    "value" : "'sku_id已删除'"
+  }, {
+    "name" : "expect_code",
+    "value" : "'004'"
+  }, {
+    "name" : "expect_message",
+    "value" : "'不合法'"
+  }, {
+    "name" : "expect_statuscode",
+    "value" : "500"
+  }, {
+    "name" : "num",
+    "value" : "1"
+  }, {
+    "name" : "sku_id",
+    "value" : "18575"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "81516bbb87183804.json",
+  "parameterValues" : [ "'sku_id已删除'", "'004'", "'不合法'", "500", "1", "18575" ]
+}

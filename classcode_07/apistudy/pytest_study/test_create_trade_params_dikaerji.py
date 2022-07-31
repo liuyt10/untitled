@@ -7,7 +7,7 @@
 import pytest
 
 # @pytest.mark.usefixtures('get_buyer_token')
-from classcode_07.apistudy.requests_study.mtxshop_apis import buy_now, delete_cart, add_cart, create_trade
+from classcode_07.apistudy.requests_study.mtxshop_apis import buy_now, delete_cart, add_cart, create_trade, buyer_login
 
 
 class TestCreateTrade:
@@ -16,8 +16,8 @@ class TestCreateTrade:
     expect_statuscode = [200]  # 1
 
     # 生成用例的总数 5*2*1=10
-    # def setup_class(self):
-    #     buyer_login()
+    def setup_class(self):
+        buyer_login()
 
     @pytest.mark.parametrize('client', client_data)
     @pytest.mark.parametrize('way', way_data)

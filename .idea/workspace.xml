@@ -2,14 +2,36 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="74f55a6e-904f-4812-99e9-bb49bca73154" name="Default Changelist" comment="Default Changelist">
-      <change afterPath="$PROJECT_DIR$/test/class07.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/classcode_07/apistudy/pytest_study/conftest.py" beforeDir="false" afterPath="$PROJECT_DIR$/classcode_07/apistudy/pytest_study/conftest.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/classcode_07/apistudy/pytest_study/test_add_cart.py" beforeDir="false" afterPath="$PROJECT_DIR$/classcode_07/apistudy/pytest_study/test_add_cart.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/classcode_07/apistudy/pytest_study/test_buy_now.py" beforeDir="false" afterPath="$PROJECT_DIR$/classcode_07/apistudy/pytest_study/test_buy_now.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/classcode_07/apistudy/pytest_study/test_buy_now_params.py" beforeDir="false" afterPath="$PROJECT_DIR$/classcode_07/apistudy/pytest_study/test_buy_now_params.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/classcode_07/apistudy/pytest_study/test_buyer_login.py" beforeDir="false" afterPath="$PROJECT_DIR$/classcode_07/apistudy/pytest_study/test_buyer_login.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/classcode_07/apistudy/pytest_study/test_cancel_order.py" beforeDir="false" afterPath="$PROJECT_DIR$/classcode_07/apistudy/pytest_study/test_cancel_order.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/apiframework/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/classcode_06/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/homework_20220612_2/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/homework_20220612_4/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/homework_20220612_7/test/class07.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/homework_20220612_7/test/conftest.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/homework_20220612_7/test/dikaerji.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/homework_20220612_7/test/pytest.ini" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/homework_20220612_7/test/run.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/homework_20220612_7/test/test_buy.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/homework_20220612_7/test/test_cancel.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/homework_20220612_7/test/test_yield.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/homework_20220612_8/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/homework_20220612_8/test/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/homework_20220612_8/test/db_basic.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/homework_20220612_8/test/db_util.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test/__init__.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/classcode_06/apistudy/pytest_study/test_buy_now_params.py" beforeDir="false" afterPath="$PROJECT_DIR$/classcode_06/apistudy/pytest_study/test_buy_now_params.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/classcode_07/apistudy/pytest_study/report/data/799d7f27-3d16-4f6f-bc0b-c80defc11894-container.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/classcode_07/apistudy/pytest_study/report/data/8ab910e9-06f9-4d25-9364-a19995cb09d6-container.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/classcode_07/apistudy/pytest_study/report/data/97ba4b24-c318-45d3-912b-47c73dfd576b-container.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/classcode_07/apistudy/pytest_study/report/data/9a4ea89a-3ed0-4d6c-b323-73a268309de7-result.json" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/classcode_07/apistudy/pytest_study/test_create_trade_params_dikaerji.py" beforeDir="false" afterPath="$PROJECT_DIR$/classcode_07/apistudy/pytest_study/test_create_trade_params_dikaerji.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/homework_20220612_7/buyer_operate.py" beforeDir="false" afterPath="$PROJECT_DIR$/homework_20220612_7/buyer_operate.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/homework_20220612_7/seller_operate.py" beforeDir="false" afterPath="$PROJECT_DIR$/homework_20220612_7/seller_operate.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/class07.py" beforeDir="false" afterPath="$PROJECT_DIR$/classcode_07/__init__.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/requests_study.py" beforeDir="false" afterPath="$PROJECT_DIR$/homework_20220612_6/test/requests_study.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/test7.py" beforeDir="false" afterPath="$PROJECT_DIR$/homework_20220612_6/test/test7.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/函数调用.py" beforeDir="false" afterPath="$PROJECT_DIR$/test/函数调用.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -36,21 +58,28 @@
     <option name="showLibraryContents" value="true" />
     <option name="showMembers" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;settings.editor.selected.configurable&quot;: &quot;com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "last_opened_file_path": "E:/project/untitled/homework_20220612_4",
+    "settings.editor.selected.configurable": "com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable"
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="E:\project\untitled\homework_20220612_4" />
+      <recent name="E:\project\untitled\homework_20220612_2" />
+      <recent name="E:\project\untitled\classcode_07" />
+    </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="E:\project\untitled\homework_20220612_8\test" />
+      <recent name="E:\project\untitled\homework_20220612_6\test" />
+      <recent name="E:\project\untitled\homework_20220612_7\test" />
       <recent name="E:\project\untitled\学员管理系统" />
       <recent name="E:\project\untitled\函数" />
-      <recent name="E:\project\untitled\第一周作业" />
-      <recent name="E:\project\untitled\第二周作业" />
     </key>
   </component>
-  <component name="RunManager">
-    <configuration name="work" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="Python.run">
+    <configuration name="run" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="testclass" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -58,11 +87,11 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/20220612_6_homework" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/homework_20220612_7/test" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/20220612_6_homework/work.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/homework_20220612_7/test/run.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -71,9 +100,84 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
+    <configuration name="pytest (pytest_study 内)" type="tests" factoryName="py.test" temporary="true" nameIsGenerated="true">
+      <module name="testclass" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/classcode_07/apistudy/pytest_study" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="_new_keywords" value="&quot;&quot;" />
+      <option name="_new_parameters" value="&quot;&quot;" />
+      <option name="_new_additionalArguments" value="&quot;&quot;" />
+      <option name="_new_target" value="&quot;$PROJECT_DIR$/classcode_07/apistudy/pytest_study&quot;" />
+      <option name="_new_targetType" value="&quot;PATH&quot;" />
+      <method v="2" />
+    </configuration>
+    <configuration name="pytest (test_buy.py 内)" type="tests" factoryName="py.test" temporary="true" nameIsGenerated="true">
+      <module name="testclass" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/homework_20220612_7/test" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="_new_keywords" value="&quot;&quot;" />
+      <option name="_new_parameters" value="&quot;&quot;" />
+      <option name="_new_additionalArguments" value="&quot;&quot;" />
+      <option name="_new_target" value="&quot;$PROJECT_DIR$/homework_20220612_7/test/test_buy.py&quot;" />
+      <option name="_new_targetType" value="&quot;PATH&quot;" />
+      <method v="2" />
+    </configuration>
+    <configuration name="test_buy_now_params.test_buy_now_params 的 pytest" type="tests" factoryName="py.test" temporary="true" nameIsGenerated="true">
+      <module name="testclass" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/classcode_07/apistudy/pytest_study" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="_new_keywords" value="&quot;&quot;" />
+      <option name="_new_parameters" value="&quot;&quot;" />
+      <option name="_new_additionalArguments" value="&quot;&quot;" />
+      <option name="_new_target" value="&quot;test_buy_now_params.test_buy_now_params&quot;" />
+      <option name="_new_targetType" value="&quot;PYTHON&quot;" />
+      <method v="2" />
+    </configuration>
+    <configuration name="test_buy.test_buy_now_params 的 pytest" type="tests" factoryName="py.test" temporary="true" nameIsGenerated="true">
+      <module name="testclass" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/homework_20220612_7/test" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="_new_keywords" value="&quot;&quot;" />
+      <option name="_new_parameters" value="&quot;&quot;" />
+      <option name="_new_additionalArguments" value="&quot;&quot;" />
+      <option name="_new_target" value="&quot;test_buy.test_buy_now_params&quot;" />
+      <option name="_new_targetType" value="&quot;PYTHON&quot;" />
+      <method v="2" />
+    </configuration>
+    <list>
+      <item itemvalue="Python.run" />
+      <item itemvalue="Python 测试.pytest (pytest_study 内)" />
+      <item itemvalue="Python 测试.pytest (test_buy.py 内)" />
+      <item itemvalue="Python 测试.test_buy.test_buy_now_params 的 pytest" />
+      <item itemvalue="Python 测试.test_buy_now_params.test_buy_now_params 的 pytest" />
+    </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Python.work" />
+        <item itemvalue="Python.run" />
+        <item itemvalue="Python 测试.test_buy.test_buy_now_params 的 pytest" />
+        <item itemvalue="Python 测试.test_buy_now_params.test_buy_now_params 的 pytest" />
+        <item itemvalue="Python 测试.pytest (test_buy.py 内)" />
+        <item itemvalue="Python 测试.pytest (pytest_study 内)" />
       </list>
     </recent_temporary>
   </component>
@@ -104,6 +208,9 @@
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="2" />
+  </component>
+  <component name="UnknownFeatures">
+    <option featureType="com.intellij.fileTypeFactory" implementationName="*.ini" />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
     <option name="TAB_STATES">

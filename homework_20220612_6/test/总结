@@ -1,0 +1,27 @@
+1、测试默认规则
+   测试脚本文件需要以test_开头或者_test结尾
+
+2、测试用例默认规则
+    测试用例以test_开头，比如针对登录接口写一个测试自动化用例
+
+3、pycharm执行测试用例
+    一种是命令行执行，一种是pycharm界面操作执行
+    进入到pycharm的命令行中，先cd到脚本所在目录，执行如下指令：pytest -sv test_buyer_login.py
+    如果想要在界面上直接执行需要做设置：file->setting->python integrated tools->Testing->Default test勾选pytest
+
+4、前置后置处理
+    针对一些接口需要在调用前完成其他接口的调用时可以使用前置动作完成
+    前置后置分为不同的作用范围
+    1.模块级  setup_module()  teardown_module()
+    2.函数级别 setup_function()  teardown_function()
+    3.类级别  setup_class()  teardown_class()   默认的编写规则是类以Test开头
+    4.方法级别  setuo_method()  teardown_method()
+
+5、总结
+    模块级别：当前模块下只执行一次
+    函数级别：在当前文件下，在使用函数式测试用例时，针对他们的每一个都生效
+    类级别：在当前类中只执行一次
+    方法级别：在当前类下所有的测试用例都生效的
+    setup和teardown:这可以替换上面的函数级别和方法级别
+pytest用例编写方式小总结：
+    一种是以函数的方式编写测试用例，一种是以类的方式编写测试用例，选择一种即可，不要混着用

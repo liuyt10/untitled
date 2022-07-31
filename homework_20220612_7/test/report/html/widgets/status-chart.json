@@ -1,0 +1,81 @@
+[ {
+  "uid" : "3b13fb81f3c76776",
+  "name" : "test_yield",
+  "time" : {
+    "start" : 1659201320700,
+    "stop" : 1659201320700,
+    "duration" : 0
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "a557fcdf3e213f70",
+  "name" : "test_buy_now_params[sku_id不存在-83774663-1-500-004-不合法]",
+  "time" : {
+    "start" : 1659201319488,
+    "stop" : 1659201319659,
+    "duration" : 171
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "81516bbb87183804",
+  "name" : "test_buy_now_params[sku_id已删除-18575-1-500-004-不合法]",
+  "time" : {
+    "start" : 1659201319810,
+    "stop" : 1659201319890,
+    "duration" : 80
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "953959b0cff29a16",
+  "name" : "test_buy_now_params[num为-1-17418--1-400-004-购买数量必须大于0]",
+  "time" : {
+    "start" : 1659201320022,
+    "stop" : 1659201320151,
+    "duration" : 129
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "e6a888ecdbcd97f1",
+  "name" : "test_buy_now_params[num为0-17418-0-400-004-购买数量必须大于0]",
+  "time" : {
+    "start" : 1659201319894,
+    "stop" : 1659201320015,
+    "duration" : 121
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "a2beab7a7cc6f9ef",
+  "name" : "test_cancel_order",
+  "time" : {
+    "start" : 1659201320632,
+    "stop" : 1659201320696,
+    "duration" : 64
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "593b3f334f12490e",
+  "name" : "test_buy_now_params[num超过库存-17418-99999999-500-452-商品库存已不足1，不能购买。]",
+  "time" : {
+    "start" : 1659201320157,
+    "stop" : 1659201320309,
+    "duration" : 152
+  },
+  "status" : "failed",
+  "severity" : "normal"
+}, {
+  "uid" : "8c7bd52154de2b01",
+  "name" : "test_buy_now_params[sku_id已下架-538-1-500-004-不合法]",
+  "time" : {
+    "start" : 1659201319676,
+    "stop" : 1659201319798,
+    "duration" : 122
+  },
+  "status" : "failed",
+  "severity" : "normal"
+} ]

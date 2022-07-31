@@ -1,0 +1,82 @@
+{
+  "uid" : "4b4757e66a1912dae1a509f688f20b0f",
+  "name" : "categories",
+  "children" : [ {
+    "name" : "Product defects",
+    "children" : [ {
+      "name" : "AssertionError: assert 200 == 500\n  +200\n  -500",
+      "children" : [ {
+        "name" : "test_add_cart2",
+        "uid" : "70510758e36a36e5",
+        "parentUid" : "e8a51b95478b865ade7e2ac3fc07ed47",
+        "status" : "failed",
+        "time" : {
+          "start" : 1658645530167,
+          "stop" : 1658645530244,
+          "duration" : 77
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "test_buy_now2",
+        "uid" : "71845dd6c7928c7d",
+        "parentUid" : "e8a51b95478b865ade7e2ac3fc07ed47",
+        "status" : "failed",
+        "time" : {
+          "start" : 1658645530618,
+          "stop" : 1658645530707,
+          "duration" : 89
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "test_add_cart2",
+        "uid" : "eaa8ef8c8381268a",
+        "parentUid" : "e8a51b95478b865ade7e2ac3fc07ed47",
+        "status" : "failed",
+        "time" : {
+          "start" : 1658645534685,
+          "stop" : 1658645534767,
+          "duration" : 82
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "e8a51b95478b865ade7e2ac3fc07ed47"
+    }, {
+      "name" : "pytest_assume.plugin.FailedAssumption: \nOriginal Failure:\n\n>> JSONDecodeError('Expecting value: line 1 column 1 (char 0)')\n\n1 Failed Assumptions:\n\ntest_buy_now_params.py:38: AssumptionFailure\n>>\tpytest.assume(status_code==expect_statuscode,f'实际值是:{status_code},期望值是：{expect_statuscode}')\nAssertionError: 实际值是:200,期望值是：500\nassert False",
+      "children" : [ {
+        "name" : "test_buy_now_params[sku_id已下架-538-1-500-004-不合法]",
+        "uid" : "7df299a3364ba0c3",
+        "parentUid" : "e3ca520174df390b134316bc82e49a38",
+        "status" : "failed",
+        "time" : {
+          "start" : 1658645530812,
+          "stop" : 1658645530906,
+          "duration" : 94
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "'sku_id已下架'", "'004'", "'不合法'", "500", "1", "538" ]
+      }, {
+        "name" : "test_buy_now_params[sku_id已删除-18575-1-500-004-不合法]",
+        "uid" : "d2fe4f37b3faea88",
+        "parentUid" : "e3ca520174df390b134316bc82e49a38",
+        "status" : "failed",
+        "time" : {
+          "start" : 1658645530963,
+          "stop" : 1658645531042,
+          "duration" : 79
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "'sku_id已删除'", "'004'", "'不合法'", "500", "1", "18575" ]
+      } ],
+      "uid" : "e3ca520174df390b134316bc82e49a38"
+    } ],
+    "uid" : "8fb3a91ba5aaf9de24cc8a92edc82b5d"
+  } ]
+}

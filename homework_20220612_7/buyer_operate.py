@@ -31,7 +31,11 @@ class buyer_Operate():
                 if user_choice == 'q':
                     break
                 elif user_choice in buyer_Operate.buyer_menu:
-                    getattr(self, buyer_Operate.buyer_menu[user_choice])()
+                    try:
+                        getattr(self, buyer_Operate.buyer_menu[user_choice])()
+                    except Exception as e:
+                        print(f"用户进行操作有误，报错原因为：{e}  \n请重新选择操作:")
+                        pass
                 else:
                     print('操作对应的数字输入错误，请重新输入！！！！')
                     pass

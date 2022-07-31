@@ -28,7 +28,11 @@ class seller_Operate():
                 if user_choice == 'q':
                     break
                 elif user_choice in seller_Operate.seller_menu:
-                    getattr(self, seller_Operate.seller_menu[user_choice])()
+                    try:
+                        getattr(self, seller_Operate.seller_menu[user_choice])()
+                    except Exception as e:
+                        print(f"卖家进行的操作有误，报错原因为：{e}  \n请重新选择操作:")
+                        pass
                 else:
                     print('操作对应的数字输入错误，请重新输入！！！！')
                     pass
@@ -173,7 +177,7 @@ class seller_Operate():
     @staticmethod
     def confirmed_paid():  # 确认收款
         order_sn = input('请输入需要收款的订单编号：')
-        pay_price = int(input('请输入付款金额：'))
+        pay_price = float(input('请输入付款金额：'))
         url = f'http://www.mtxshop.com:7003/seller/trade/orders/{order_sn}/pay'
         header = {
             'Authorization': token
