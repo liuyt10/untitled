@@ -7,11 +7,11 @@
 import requests
 
 # 注意这个类是所有接口封装时的父类
-from common.encry_decry import AesEncrypt
+from classcode_08.apiframework.common.encry_decry import AesEncrypt
 
 
 class RequestsClient:
-    session = requests.session()#使用类属性来定一个session，他将作为所有接口发起的全局对象
+    session = requests.session()  # 使用类属性来定一个session，他将作为所有接口发起的全局对象
 
     def __init__(self):
         self.session = RequestsClient.session
@@ -24,9 +24,9 @@ class RequestsClient:
         self.files = None
         self.resp = None
         # 假如你要做aes加解密
-        self.aes = AesEncrypt(key='0123456789123456')
+        # self.aes = AesEncrypt(key='0123456789123456')
 
-    def send(self,**kwargs):
+    def send(self, **kwargs):
         # 如果调用方，没有传任何的参数，那么就使用该对象的默认属性参数
         if 'url' not in kwargs:
             kwargs['url'] = self.url
@@ -49,7 +49,9 @@ class RequestsClient:
         # 解密数据
         # data = self.aes.decrypt(self.resp.text)
         return self.resp
+
+
 if __name__ == '__main__':
     # 登录接口
     r = RequestsClient()
-    r.send(method='post',url='',data='')
+    r.send(method='post', url='', data='')

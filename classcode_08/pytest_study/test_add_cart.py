@@ -7,7 +7,7 @@
 
 
 # 以类的形式编写测试用例
-from requests_study.mtxshop_apis import add_cart, buyer_login
+from classcode_08.requests_study.mtxshop_apis import buyer_login, add_cart
 
 
 class TestAddCart:

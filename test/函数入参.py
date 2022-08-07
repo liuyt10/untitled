@@ -10,7 +10,8 @@ def a2():
     a = 390
     print(a)
 
-
+# *args 位置传参 是元组格式
+# **kwargs 关键字传参  是字典格式
 def userinfo1(name, age, gender, **kwargs):
     print(f'userinfo1:姓名:{name},年龄:{age},性别:{gender},其他信息:{kwargs}')
 

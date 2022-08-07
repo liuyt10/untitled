@@ -3,6 +3,7 @@ from typing import List
 
 import pytest
 from classcode_07.apistudy.requests_study.mtxshop_apis import buyer_login, buy_now, create_trade
+from homework_20220612_8.test.db_util import DBUtil
 
 
 def pytest_collection_modifyitems(
@@ -14,10 +15,10 @@ def pytest_collection_modifyitems(
         item._nodeid = item._nodeid.encode("utf-8").decode("unicode-escape")
 
 
-# @pytest.fixture(scope='class', autouse=True)
-# def get_buyer_token1():
-#     buyer_login()
-#     print('执行买家登录，获取token')
+@pytest.fixture(scope='class', autouse=True)
+def get_buyer_token1():
+    buyer_login()
+    print('执行买家登录，获取token')
 
 
 @pytest.fixture(scope='function')
@@ -41,3 +42,9 @@ def goods_data1():
     print('创建一个商品')
     yield '返回商品id'
     print('清除商品')
+
+@pytest.fixture(scope='session',autouse=True) # 数据库创建一个前置和后置
+def get_db():
+    db_util = DBUtil(host='121.42.15.146', user='root', password='Testfan#123')  # 创建一个数据库
+    yield db_util
+    db_util.close()

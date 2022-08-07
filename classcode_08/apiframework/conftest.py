@@ -8,10 +8,10 @@ from typing import List
 
 import pytest
 
-from api.base_api import BaseBuyerApi
-from api.buyer.buyer_login_apis import BuyerLoginApi
-from common.db_util import DBUtil
-from common.redis_util import RedisUtil
+from classcode_08.apiframework.api.base_api import BaseBuyerApi
+from classcode_08.apiframework.api.buyer.buyer_login_apis import BuyerLoginApi
+from classcode_08.apiframework.common.db_util import DBUtil
+from classcode_08.apiframework.common.redis_util import RedisUtil
 
 
 def pytest_collection_modifyitems(

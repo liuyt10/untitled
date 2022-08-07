@@ -1,75 +1,5 @@
 [ {
-  "uid" : "47b5c1e87ca36d53",
-  "name" : "test_create_trade[200-CART-WAP]",
-  "time" : {
-    "start" : 1659253820110,
-    "stop" : 1659253820476,
-    "duration" : 366
-  },
-  "status" : "passed",
-  "severity" : "normal"
-}, {
-  "uid" : "2484b7950715a015",
-  "name" : "test_create_trade[200-BUY_NOW-PC]",
-  "time" : {
-    "start" : 1659253818488,
-    "stop" : 1659253818709,
-    "duration" : 221
-  },
-  "status" : "passed",
-  "severity" : "normal"
-}, {
-  "uid" : "81cf6af24259928d",
-  "name" : "test_create_trade[200-CART-REACT]",
-  "time" : {
-    "start" : 1659253820794,
-    "stop" : 1659253821248,
-    "duration" : 454
-  },
-  "status" : "passed",
-  "severity" : "normal"
-}, {
-  "uid" : "66abfb44f3e4754d",
-  "name" : "test_buy_now_params[num为0-sku_id3-num3-expect_statuscode3-\"004\"-购买数量必须大于0]",
-  "time" : {
-    "start" : 1659253818177,
-    "stop" : 1659253818274,
-    "duration" : 97
-  },
-  "status" : "passed",
-  "severity" : "normal"
-}, {
-  "uid" : "b8360d841c2ded4c",
-  "name" : "test_create_trade[200-CART-PC]",
-  "time" : {
-    "start" : 1659253819620,
-    "stop" : 1659253820102,
-    "duration" : 482
-  },
-  "status" : "passed",
-  "severity" : "normal"
-}, {
-  "uid" : "e12d77dd0aa8e3e9",
-  "name" : "test_create_trade[200-CART-MINI]",
-  "time" : {
-    "start" : 1659253821253,
-    "stop" : 1659253821620,
-    "duration" : 367
-  },
-  "status" : "passed",
-  "severity" : "normal"
-}, {
-  "uid" : "634675a5b13c1c1a",
-  "name" : "test_create_trade[200-BUY_NOW-MINI]",
-  "time" : {
-    "start" : 1659253819367,
-    "stop" : 1659253819612,
-    "duration" : 245
-  },
-  "status" : "passed",
-  "severity" : "normal"
-}, {
-  "uid" : "663e2073daf140e2",
+  "uid" : "e610a8e28aa0febd",
   "name" : "test_create_trade[200-BUY_NOW-NATIVE]",
   "time" : {
     "start" : 1659253818941,
@@ -79,47 +9,7 @@
   "status" : "passed",
   "severity" : "normal"
 }, {
-  "uid" : "efed601d31cd5f8f",
-  "name" : "test_create_trade[200-BUY_NOW-REACT]",
-  "time" : {
-    "start" : 1659253819146,
-    "stop" : 1659253819362,
-    "duration" : 216
-  },
-  "status" : "passed",
-  "severity" : "normal"
-}, {
-  "uid" : "845bcb88ef8c7a04",
-  "name" : "test_create_trade[200-BUY_NOW-WAP]",
-  "time" : {
-    "start" : 1659253818714,
-    "stop" : 1659253818934,
-    "duration" : 220
-  },
-  "status" : "passed",
-  "severity" : "normal"
-}, {
-  "uid" : "9790319c8630e6d7",
-  "name" : "test_buy_now_params[sku_id已删除-sku_id2-num2-expect_statuscode2-\"004\"-不合法]",
-  "time" : {
-    "start" : 1659253818094,
-    "stop" : 1659253818168,
-    "duration" : 74
-  },
-  "status" : "passed",
-  "severity" : "normal"
-}, {
-  "uid" : "8e33fbdbe672702",
-  "name" : "test_buy_now_params[num超过库存-sku_id5-num5-expect_statuscode5-\"451\"-商品库存已不足，不能购买。]",
-  "time" : {
-    "start" : 1659253818382,
-    "stop" : 1659253818482,
-    "duration" : 100
-  },
-  "status" : "passed",
-  "severity" : "normal"
-}, {
-  "uid" : "52e90a574f7bedc4",
+  "uid" : "9bf6ec95ba2d184b",
   "name" : "test_buy_now_params[sku_id已下架-sku_id1-num1-expect_statuscode1-\"004\"-不合法]",
   "time" : {
     "start" : 1659253817959,
@@ -129,7 +19,57 @@
   "status" : "failed",
   "severity" : "normal"
 }, {
-  "uid" : "c033ade4aacfc175",
+  "uid" : "ad81cda8ff5e093e",
+  "name" : "test_create_trade[200-CART-WAP]",
+  "time" : {
+    "start" : 1659253820110,
+    "stop" : 1659253820476,
+    "duration" : 366
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "76f603e9de9c6f43",
+  "name" : "test_create_trade[200-CART-PC]",
+  "time" : {
+    "start" : 1659253819620,
+    "stop" : 1659253820102,
+    "duration" : 482
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "508089306ad9b40d",
+  "name" : "test_create_trade[200-CART-REACT]",
+  "time" : {
+    "start" : 1659253820794,
+    "stop" : 1659253821248,
+    "duration" : 454
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "6475ba810f1b63ec",
+  "name" : "test_create_trade[200-BUY_NOW-REACT]",
+  "time" : {
+    "start" : 1659253819146,
+    "stop" : 1659253819362,
+    "duration" : 216
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "1afbe5d7c1c0e81",
+  "name" : "test_create_trade[200-BUY_NOW-MINI]",
+  "time" : {
+    "start" : 1659253819367,
+    "stop" : 1659253819612,
+    "duration" : 245
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "329ee5c9ded6d4b9",
   "name" : "test_create_trade[200-CART-NATIVE]",
   "time" : {
     "start" : 1659253820481,
@@ -139,7 +79,37 @@
   "status" : "passed",
   "severity" : "normal"
 }, {
-  "uid" : "f1bb97b9ad631a6d",
+  "uid" : "74e70377498c4e67",
+  "name" : "test_buy_now_params[num超过库存-sku_id5-num5-expect_statuscode5-\"451\"-商品库存已不足，不能购买。]",
+  "time" : {
+    "start" : 1659253818382,
+    "stop" : 1659253818482,
+    "duration" : 100
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "c4779b8e5875e665",
+  "name" : "test_buy_now_params[num为-1-sku_id4-num4-expect_statuscode4-\"004\"-购买数量必须大于0]",
+  "time" : {
+    "start" : 1659253818283,
+    "stop" : 1659253818375,
+    "duration" : 92
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "542c37cb62ae87fe",
+  "name" : "test_create_trade[200-BUY_NOW-PC]",
+  "time" : {
+    "start" : 1659253818488,
+    "stop" : 1659253818709,
+    "duration" : 221
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "6f31ea134a67334b",
   "name" : "test_buy_now_params[sku_id不存在-sku_id0-num0-expect_statuscode0-\"004\"-不合法]",
   "time" : {
     "start" : 1659253817494,
@@ -149,12 +119,42 @@
   "status" : "passed",
   "severity" : "normal"
 }, {
-  "uid" : "7e0858ec39d44b89",
-  "name" : "test_buy_now_params[num为-1-sku_id4-num4-expect_statuscode4-\"004\"-购买数量必须大于0]",
+  "uid" : "c2096ffabccb3c9d",
+  "name" : "test_create_trade[200-BUY_NOW-WAP]",
   "time" : {
-    "start" : 1659253818283,
-    "stop" : 1659253818375,
-    "duration" : 92
+    "start" : 1659253818714,
+    "stop" : 1659253818934,
+    "duration" : 220
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "65d07ec7f9221193",
+  "name" : "test_buy_now_params[sku_id已删除-sku_id2-num2-expect_statuscode2-\"004\"-不合法]",
+  "time" : {
+    "start" : 1659253818094,
+    "stop" : 1659253818168,
+    "duration" : 74
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "3f11a026f5a7ad53",
+  "name" : "test_buy_now_params[num为0-sku_id3-num3-expect_statuscode3-\"004\"-购买数量必须大于0]",
+  "time" : {
+    "start" : 1659253818177,
+    "stop" : 1659253818274,
+    "duration" : 97
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "8023d521e4f1a2fb",
+  "name" : "test_create_trade[200-CART-MINI]",
+  "time" : {
+    "start" : 1659253821253,
+    "stop" : 1659253821620,
+    "duration" : 367
   },
   "status" : "passed",
   "severity" : "normal"

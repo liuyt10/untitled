@@ -8,9 +8,7 @@ import time
 
 import pytest
 
-from api.buyer.cart_apis import BuyNowApi, DeleteCartApi, AddCartApi
-from api.buyer.order_apis import CreateTradeApi
-from common.file_load import load_yaml_file
+from classcode_08.apiframework.common.file_load import load_yaml_file
 
 
 class TestCreateTradeApi:

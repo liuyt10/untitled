@@ -7,7 +7,7 @@
       "name" : "pytest_assume.plugin.FailedAssumption: \nOriginal Failure:\n\n>> JSONDecodeError('Expecting value: line 1 column 1 (char 0)')\n\n1 Failed Assumptions:\n\ntestcases\\buyer\\test_001_buy_now_api.py:35: AssumptionFailure\n>>\tpytest.assume(status_code == expect_statuscode, f'实际值是:{status_code},期望值是：{expect_statuscode}')\nAssertionError: 实际值是:200,期望值是：500\nassert False",
       "children" : [ {
         "name" : "test_buy_now_params[sku_id已下架-sku_id1-num1-expect_statuscode1-\"004\"-不合法]",
-        "uid" : "52e90a574f7bedc4",
+        "uid" : "9bf6ec95ba2d184b",
         "parentUid" : "9a681c6ac8157e19a41479fcb72189b5",
         "status" : "failed",
         "time" : {

@@ -4,14 +4,13 @@
 # @author   : 沙陌 Matongxue_2
 # @Time     : 2022-07-31 13:33
 # @Copyright: 北京码同学
-from api.base_api import BaseBuyerApi
-from api.buyer.buyer_login_apis import BuyerLoginApi
-from common.client import RequestsClient
+from classcode_08.apiframework.api.base_api import BaseBuyerApi
+from classcode_08.apiframework.api.buyer.buyer_login_apis import BuyerLoginApi
 
 
 class BuyNowApi(BaseBuyerApi):
 
-    def __init__(self,sku_id,num=1):
+    def __init__(self, sku_id, num=1):
         super().__init__()
         self.url = f'{self.host}/trade/carts/buy'
         self.method = 'post'
@@ -25,9 +24,11 @@ class BuyNowApi(BaseBuyerApi):
             'num': num,
             'activity_id': ''
         }
+
+
 class AddCartApi(BaseBuyerApi):
 
-    def __init__(self,sku_id,num=1):
+    def __init__(self, sku_id, num=1):
         super().__init__()
         self.url = f'{self.host}/trade/carts'
         self.method = 'post'
@@ -42,12 +43,15 @@ class AddCartApi(BaseBuyerApi):
             'activity_id': ''
         }
 
+
 class DeleteCartApi(BaseBuyerApi):
 
     def __init__(self):
         super().__init__()
         self.url = f'{self.host}/trade/carts'
         self.method = 'delete'
+
+
 if __name__ == '__main__':
     buyer_login_api = BuyerLoginApi()
     resp = buyer_login_api.send()
