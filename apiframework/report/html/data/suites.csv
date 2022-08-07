@@ -1,0 +1,6 @@
+"Status","Start Time","Stop Time","Duration in ms","Parent Suite","Suite","Sub Suite","Test Class","Test Method","Name","Description"
+"passed","Sun Aug 07 02:23:17 CST 2022","Sun Aug 07 02:23:17 CST 2022","141","testcases.buyer","test_001_buy_now","TestBuyNowApi","","","test_buy_now_params[sku_id已删除-sku_id1-num1-expect_statuscode1-""004""-不合法]",""
+"passed","Sun Aug 07 02:23:17 CST 2022","Sun Aug 07 02:23:17 CST 2022","136","testcases.buyer","test_001_buy_now","TestBuyNowApi","","","test_buy_now_params[num为-1-sku_id3-num3-expect_statuscode3-""004""-购买数量必须大于0]",""
+"passed","Sun Aug 07 02:23:17 CST 2022","Sun Aug 07 02:23:17 CST 2022","139","testcases.buyer","test_001_buy_now","TestBuyNowApi","","","test_buy_now_params[num为0-sku_id2-num2-expect_statuscode2-""004""-购买数量必须大于0]",""
+"passed","Sun Aug 07 02:23:16 CST 2022","Sun Aug 07 02:23:17 CST 2022","393","testcases.buyer","test_001_buy_now","TestBuyNowApi","","","test_buy_now_params[sku_id不存在-sku_id0-num0-expect_statuscode0-""004""-不合法]",""
+"passed","Sun Aug 07 02:23:17 CST 2022","Sun Aug 07 02:23:17 CST 2022","141","testcases.buyer","test_001_buy_now","TestBuyNowApi","","","test_buy_now_params[num超过库存-sku_id4-num4-expect_statuscode4-""451""-商品库存已不足，不能购买。]",""

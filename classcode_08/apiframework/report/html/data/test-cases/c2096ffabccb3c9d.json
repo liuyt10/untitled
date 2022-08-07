@@ -1,0 +1,95 @@
+{
+  "uid" : "c2096ffabccb3c9d",
+  "name" : "test_create_trade[200-BUY_NOW-WAP]",
+  "fullName" : "testcases.buyer.test_002_create_trade_api.TestCreateTradeApi#test_create_trade",
+  "historyId" : "dbdda6891e7cdbf76c6cef4752d1344b",
+  "time" : {
+    "start" : 1659253818714,
+    "stop" : 1659253818934,
+    "duration" : 220
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ {
+    "name" : "_session_faker",
+    "time" : {
+      "start" : 1659253817188,
+      "stop" : 1659253817300,
+      "duration" : 112
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "hasContent" : false,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false
+  }, {
+    "name" : "get_buyer_token",
+    "time" : {
+      "start" : 1659253817300,
+      "stop" : 1659253817492,
+      "duration" : 192
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "hasContent" : false,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false
+  } ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "parentSuite",
+    "value" : "testcases.buyer"
+  }, {
+    "name" : "suite",
+    "value" : "test_002_create_trade_api"
+  }, {
+    "name" : "subSuite",
+    "value" : "TestCreateTradeApi"
+  }, {
+    "name" : "host",
+    "value" : "LAPTOP-93HH27QA"
+  }, {
+    "name" : "thread",
+    "value" : "43728-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "testcases.buyer.test_002_create_trade_api"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ {
+    "name" : "client",
+    "value" : "'WAP'"
+  }, {
+    "name" : "expect_status_code",
+    "value" : "200"
+  }, {
+    "name" : "way",
+    "value" : "'BUY_NOW'"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "c2096ffabccb3c9d.json",
+  "parameterValues" : [ "'WAP'", "200", "'BUY_NOW'" ]
+}

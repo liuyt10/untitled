@@ -1,0 +1,104 @@
+{
+  "uid" : "74e70377498c4e67",
+  "name" : "test_buy_now_params[num超过库存-sku_id5-num5-expect_statuscode5-\"451\"-商品库存已不足，不能购买。]",
+  "fullName" : "testcases.buyer.test_001_buy_now_api.TestBuyNowApi#test_buy_now_params",
+  "historyId" : "6390e62d494cbc0e83eb75b64c16c056",
+  "time" : {
+    "start" : 1659253818382,
+    "stop" : 1659253818482,
+    "duration" : 100
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ {
+    "name" : "_session_faker",
+    "time" : {
+      "start" : 1659253817188,
+      "stop" : 1659253817300,
+      "duration" : 112
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "hasContent" : false,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false
+  }, {
+    "name" : "get_buyer_token",
+    "time" : {
+      "start" : 1659253817300,
+      "stop" : 1659253817492,
+      "duration" : 192
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "hasContent" : false,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false
+  } ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "parentSuite",
+    "value" : "testcases.buyer"
+  }, {
+    "name" : "suite",
+    "value" : "test_001_buy_now_api"
+  }, {
+    "name" : "subSuite",
+    "value" : "TestBuyNowApi"
+  }, {
+    "name" : "host",
+    "value" : "LAPTOP-93HH27QA"
+  }, {
+    "name" : "thread",
+    "value" : "43728-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "testcases.buyer.test_001_buy_now_api"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ {
+    "name" : "casename",
+    "value" : "'num超过库存'"
+  }, {
+    "name" : "expect_code",
+    "value" : "'\"451\"'"
+  }, {
+    "name" : "expect_message",
+    "value" : "'商品库存已不足，不能购买。'"
+  }, {
+    "name" : "expect_statuscode",
+    "value" : "500"
+  }, {
+    "name" : "num",
+    "value" : "999999999"
+  }, {
+    "name" : "sku_id",
+    "value" : "17418"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "74e70377498c4e67.json",
+  "parameterValues" : [ "'num超过库存'", "'\"451\"'", "'商品库存已不足，不能购买。'", "500", "999999999", "17418" ]
+}

@@ -1,0 +1,71 @@
+1、pytest参数化
+    当我们针对一个测试场景，有多组测试数据时，可以将数据进行单独的管理，采用pytest参数化的方式将测试数据传递给测试用例
+    进行使用，这样我们就不用针对每组测试数据都去写测试用例
+    1.使用装饰器@pytest.mark.paramerize()
+    2.使用笛卡尔积参数化方式，该方式比较适合的场景是：正向用例的参数组合
+
+2、conftest.py
+    conftest.py固定的文件名称，在pytest执行时会自动扫描该文件中的fixture及钩子函数，并按照一定规则执行他们
+    1.解决pycharm上执行pytest后看到的用例标题中文乱码
+    2.fixture是自定义的一些特殊函数，可以方便的在测试用例中进行调用，起到前置或者后置的作用（比如执行前置登录接口调用，执行后置删除数据作用）
+    3.yield在fixture里出现主要是为了完成后置处理的动作
+    4.fixture和之前的前置后置
+        fixture可以实现之前的前置后置的动作，那么如何抉择使用哪一种
+        如果某个前置和后置在脚本里大量使用，则可以在conftest.py中统一定义一个fixture，来进行使用
+        但是如果某个前置或者后置，仅仅只在当前测试用例使用，那么就可以使用之前的setup_xxx和teardown_xxx
+
+3、fixture参数的介绍：@pytest.fixture(scope= 'session',autouse= True)
+    scope表示该fixture的作用域,作用域可选
+    session：表示在本次pytest执行时，只会被执行一次
+    module：表示在每个模块执行时，只会被执行一次
+    class：表示在每个测试类执行时，只会被执行一次
+    function：表示在每个测试用例执行时，都会被执行
+    package：和session基本上差不多
+
+    autouse表示该fixture函数是否北自动调用，默认是False
+    设置为True那么会根据作用域自动完成调用
+    设置为False则需要手动完成调用
+    手动调用方法分为两种：
+    1.@pytest.mark.usefixtures('get_buyer_token')  # 括号里面的是fixture函数的名称，使用的类或者函数上面增加该条装饰器
+    2.在测试用例函数参数中直接写上fixture函数的名称，例如：def test_create_trade(self, client, way, expect_status_code, get_buyer_token)
+
+
+4、pytest的配置文件
+    在pytest目录下创建一个pytest.ini文件，进行配置，配置信息如下
+        [pytest]
+        addopts = -sv
+        testpath = ./
+        python_files = test1_*.py
+        Python_class = Test*
+        python_function = test_*
+    再创建一个run.py文件，文件中代码如下
+        import pytest
+        if __name__ == '__main__':
+            pytest.main()
+    然后执行run.py
+
+5、pytest-assume多断言
+    assert断言在失败之后不会继续执行当前用例后续的代码，也就是说如果存在多个断言，那么一旦有一个失败，后续的断言则不会被执行到
+    那么我们希望在一个测试执行完成之后，能过给出所有断言的失败情况，此时可以借助pytest-assume这个插件来实现
+
+6、allure测试报告
+    要实现allure的测试报告，需要两部分，第一部分时allure-pytest插件，第二部分是allure的命令行工具
+
+    1.安装allure-pytest插件，该插件主要是为了收集pytest的测试结果，使用方法是在pytest.ini的addopts后追加参数修改pytest.ini的addopts,如下所示：
+    addopts = -sv --alluredir ./report/data --clean-alluredir
+    -sv 表示生成详细的日志
+    --alluredir ./report/data 表示收集到的测试结果要存在在当前目录下的report目录下的data目录下
+    --clean-alluredir 表示每次执行都清除之前的测试结果
+    执行run.py会在当前目录下生成./report/data，里面就是收集到的测试结果数据，但是这个数据并不是我们理解的html页面
+
+    2.allure命令行工具配置
+        JAVA环境搭建，配置jdk环境，安装allure-2.11.0文件
+        生成测试报告：先执行测试用例，将生成的用例数据保存在文件中，然后在pycharm的终端下通过allure执行如下命令
+         allure generate ./report/data -o ./report/html --clean
+        将保存在./report/data中的数据，通过allure插件整理成HTML页面报告并将该HTML文件保存在./report/html文件中，--clean每次生成报告后，会清除数据
+
+        将生成命令集成在run.py文件
+
+
+7、重启pycharm，file->invalidata Caches(清除缓存并重启)
+

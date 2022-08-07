@@ -1,0 +1,95 @@
+{
+  "uid" : "76f603e9de9c6f43",
+  "name" : "test_create_trade[200-CART-PC]",
+  "fullName" : "testcases.buyer.test_002_create_trade_api.TestCreateTradeApi#test_create_trade",
+  "historyId" : "2f4221c91b324ab8b0d13d1f75db0695",
+  "time" : {
+    "start" : 1659253819620,
+    "stop" : 1659253820102,
+    "duration" : 482
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ {
+    "name" : "_session_faker",
+    "time" : {
+      "start" : 1659253817188,
+      "stop" : 1659253817300,
+      "duration" : 112
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "hasContent" : false,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false
+  }, {
+    "name" : "get_buyer_token",
+    "time" : {
+      "start" : 1659253817300,
+      "stop" : 1659253817492,
+      "duration" : 192
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "hasContent" : false,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false
+  } ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "parentSuite",
+    "value" : "testcases.buyer"
+  }, {
+    "name" : "suite",
+    "value" : "test_002_create_trade_api"
+  }, {
+    "name" : "subSuite",
+    "value" : "TestCreateTradeApi"
+  }, {
+    "name" : "host",
+    "value" : "LAPTOP-93HH27QA"
+  }, {
+    "name" : "thread",
+    "value" : "43728-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "testcases.buyer.test_002_create_trade_api"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ {
+    "name" : "client",
+    "value" : "'PC'"
+  }, {
+    "name" : "expect_status_code",
+    "value" : "200"
+  }, {
+    "name" : "way",
+    "value" : "'CART'"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "76f603e9de9c6f43.json",
+  "parameterValues" : [ "'PC'", "200", "'CART'" ]
+}
